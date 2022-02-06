@@ -241,7 +241,7 @@ bindsym $mod+b exec --no-startup-id "i3lock -c 17212b"
 
 # notifications manager dunstrc
 exec --no-startup-id killall -q notify-osd
-exec --no-startup-id dunst -config ~/.config/dunst/dunstrc1
+exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
 bindsym $mod+x exec --no-startup-id "gnome-terminal -- sh -c 'ranger'"
 
